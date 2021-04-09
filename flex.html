@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            max-width: 1024px;
+            margin: 0 auto;
+            font-family: sans-serif;
+            background-color: #dddddd;
+        }
+        #header{
+            width: 100%;
+        }
+
+        #wrapper {
+            max-width: 1024px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: start;
+        }
+
+        #wrapper > div{
+            margin: 15px;
+        }
+
+        #wrapper :first-child{
+            color: #939195;
+            font-size: 24px;
+        }
+
+        .tile {
+            width: 170px;
+            height: 120px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 1px 13px 20px 1px #808080;
+        }
+
+        .bg {
+            height: 90px;
+            background-image: url(pic.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #6BA2D9;
+        }
+
+        .txt {
+            background-color: #FAF7FF;
+            text-align: center;
+            font-size: 1em;
+            padding: 7px;
+            color: #939195;
+        }
+
+        @media screen and (max-width: 1024px) {
+            #wrapper{
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+
+        @media screen and (max-width: 768px) {
+            #wrapper{
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            #wrapper{
+                width: 90%;
+                margin: 0 auto;
+                justify-content: center;
+            }
+           #wrapper :first-child{
+               text-align: center;
+           }
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <div id="header">Gallery Heading</div>
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+
+        <div class="tile">
+            <div class="bg"></div>
+            <div class="txt">Image Tile</div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore dicta similique iste ea enim vitae facilis
+            temporibus quis cupiditate, explicabo illum sapiente non perspiciatis molestiae accusamus? Velit voluptate
+            iste perferendis!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere dolorum placeat, est
+            rerum reiciendis quisquam provident maxime iste. Consequatur eius inventore explicabo quia, velit
+            repellendus et vero facilis temporibus debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Quos fuga esse temporibus porro recusandae corrupti, alias a perferendis quaerat, ipsum similique
+            reprehenderit corporis ex eius iusto repellendus quo minus veritatis! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nulla exercitationem fugiat illo vel, ipsam porro quia, alias blanditiis mollitia magni
+            fugit! Animi quaerat architecto quis cum ut dicta, nulla aut.</p>
+    </div>
+</body>
+
+</html>
